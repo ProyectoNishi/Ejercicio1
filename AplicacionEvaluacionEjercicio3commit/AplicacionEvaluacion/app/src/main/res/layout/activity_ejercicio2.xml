@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Ejercicio2Activity">
+
+    <EditText
+        android:id="@+id/nota1_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota 1"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/nota2_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota 2"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/nota1_edit_text"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/nota3_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota 3"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/nota2_edit_text"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/nota4_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota 4"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/nota3_edit_text"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/calcular_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:layout_below="@id/nota4_edit_text"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/resultado_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/calcular_button"
+        android:layout_marginTop="24dp"/>
+
+</RelativeLayout>
