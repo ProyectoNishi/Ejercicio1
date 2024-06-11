@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Calculadora de salario</string>
-    <string name="label_horas_trabajadas">Horas trabajadas:</string>
-    <string name="label_salario">Salario semanal: $%d</string>
-    <string name="boton_calcular">Calcular</string>
-</resources>

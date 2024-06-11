@@ -1,4 +1,0 @@
-<resources>
-    <string name="app_name2">Ejercicio2App</string>
-    <string name="resultado_format">Promedio de prácticas: %.2f\nNota eliminada: %.2f</string>
-</resources>
